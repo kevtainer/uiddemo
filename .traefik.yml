@@ -1,0 +1,9 @@
+displayName: UID Demo
+type: middleware
+
+import: github.com/notsureifkevin/uiddemo
+
+summary: '[Demo] Inject unique id header'
+
+testData:
+  HeaderName: "X-Traefik-Test"
