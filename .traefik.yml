@@ -1,9 +1,9 @@
-displayName: UID Demo
+displayName: uuid for requests in traefik
 type: middleware
 
-import: github.com/notsureifkevin/uiddemo
+import: github.com/jrg1381/uiddemo
 
-summary: '[Demo] Inject unique id header'
+summary: 'Inject unique id header'
 
 testData:
   HeaderName: "X-Traefik-Test"
